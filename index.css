@@ -11,6 +11,7 @@
 header {
   background-color: oklch(58.8% 0.158 241.966);
   margin-bottom: 2rem;
+  padding: 0 0.5rem;
 }
 
 .header_content {
@@ -27,11 +28,13 @@ h1 {
 main {
   max-width: 1024px;
   margin: 0 auto;
+  padding: 0 0.5rem;
 }
 
 h2 {
   font-size: 1.6rem;
   margin-bottom: 0.5rem;
+  margin-top: 2rem;
 }
 
 .collaborators {
@@ -64,5 +67,14 @@ h2 {
 
   a {
     text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+
+    svg {
+      height: 1rem;
+      width: 1rem;
+      color: black;
+    }
   }
 }
