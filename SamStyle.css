@@ -1,0 +1,11 @@
+html{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10px
+}
+h1{
+    text-align:center;
+    border-color:black;
+    border-width:0rem;
+    margin:auto;
+    background-color:skyblue;
+}

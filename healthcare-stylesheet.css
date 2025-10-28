@@ -1,0 +1,27 @@
+.header {color: black;
+        background-color: red;
+        font-family: 'Franklin Gothic Medium';
+        font-size: 50pt;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+.averagesizedtext {font-family:'Franklin Gothic Medium';
+                    font-size: 30pt;}
+
+.smalltext {font-family: 'Franklin Gothic Medium';
+            font-size:15pt}
+
+.center {margin:auto}
+
+.text-center {text-align:center}
+
+.list-center {text-align: left;
+            display:inline-block}
+
+.thelegend {max-width: 1000px;
+                margin:0 auto}
+
+        
