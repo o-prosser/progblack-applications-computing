@@ -78,3 +78,29 @@ h2 {
     }
   }
 }
+
+.pages {
+  list-style-type: none;
+}
+
+.page {
+  background-color: oklch(95.1% 0.026 236.824);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    color: oklch(58.8% 0.158 241.966);
+  }
+
+  svg {
+    height: 1.1rem;
+    width: 1.1rem;
+  }
+}
