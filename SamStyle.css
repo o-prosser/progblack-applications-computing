@@ -9,3 +9,48 @@ h1{
     margin:auto;
     background-color:skyblue;
 }
+.carousel-item img{
+    width: 75%;
+    height: 200vh;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+.carousel-caption{
+    background: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.carousel-caption h5{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+header {
+  background-color: oklch(58.8% 0.158 241.966);
+  margin-bottom: 2rem;
+  padding: 0 0.5rem;
+  font-size: 16px;
+}
+
+.header_content {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__links a {
+  display: inline-flex;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 1rem;
+  &:hover{
+  }
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
