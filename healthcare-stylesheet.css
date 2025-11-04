@@ -38,5 +38,31 @@ padding: 0;}
         background-attachment: fixed; 
         background-size: 100% 100%;}
 
+.promptBox{
+        margin-left:25svh;
+        margin-right:auto;
+        width:40svw;
+        resize:none;
+        border-radius:10px;
+        opacity:0.8;
+        font-family:"Franklin Gothic Medium";
+        font-size:medium;
+        padding:10px;
+        }
+
+.geminiOutput {
+    padding:10px;
+    margin-left:25svh;
+    margin-right:auto;
+    border-radius:10px;
+    width:40svw;
+    background-color: white;
+    font-family:"Franklin Gothic Medium";
+    font-size:medium;
+    white-space: normal;
+    overflow:visible;
+    word-wrap:break-word;
+    max-width: 80%;
+}
 
         
