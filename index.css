@@ -12,6 +12,7 @@ header {
   background-color: oklch(58.8% 0.158 241.966);
   margin-bottom: 2rem;
   padding: 0 0.5rem;
+  font-size: 16px;
 }
 
 .header_content {
@@ -42,7 +43,7 @@ h1 {
 
 main {
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
   padding: 0 0.5rem;
 }
 
@@ -118,4 +119,33 @@ h2 {
     height: 1.1rem;
     width: 1.1rem;
   }
+}
+
+.button--primary {
+  background-color: oklch(58.8% 0.158 241.966);
+  border-radius: 1rem;
+  padding: 0.5rem 1.25rem;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin-right: 0.5rem;
+}
+
+.button--secondary {
+  background-color: oklch(95.1% 0.026 236.824);
+  border-radius: 1rem;
+  padding: 0.5rem 1.25rem;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: oklch(58.8% 0.158 241.966);
+  cursor: pointer;
+  border: none;
 }
