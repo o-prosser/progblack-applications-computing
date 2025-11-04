@@ -1,5 +1,8 @@
+* {margin: 0;
+padding: 0;}
+
 .header {color: black;
-        background-color: red;
+        background-color: rgb(59, 121, 192);
         font-family: 'Franklin Gothic Medium';
         font-size: 50pt;
         text-align: center;
@@ -19,9 +22,21 @@
 .text-center {text-align:center}
 
 .list-center {text-align: left;
-            display:inline-block}
+            display:inline-block;
+            padding-bottom: 20px;
+            padding-top: 10px;}
 
 .thelegend {max-width: 1000px;
-                margin:0 auto}
+            margin:20px auto;
+            padding:20px;
+            background-color: rgba(240, 248, 255,0.8);
+            border-radius: 20px
+        }
+        
+.img-bg {background-image: url('dna.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-size: 100% 100%;}
+
 
         
