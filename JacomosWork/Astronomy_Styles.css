@@ -1,3 +1,14 @@
+html{
+font-family: "Comic Sans MS", "Comic Sans", serif;
+}
+h1{
+color: purple;
+font-weight: bold;
+}
+#jamesImage{
+display: none;
+}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
